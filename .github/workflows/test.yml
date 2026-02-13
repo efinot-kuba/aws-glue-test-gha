@@ -12,7 +12,7 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       
       - name: Run Tests
         uses: docker://amazon/aws-glue-libs:glue_libs_4.0.0_image_01
